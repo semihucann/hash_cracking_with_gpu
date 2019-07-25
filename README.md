@@ -1,5 +1,5 @@
 # Hash Cracking with Free GPU
-Hashcat installation on Google colab with tesla k80
+Hashcat installation on Google colab with Tesla K80
  >Google Colaboratory is a free Jupyter notebook environment that requires no setup and runs entirely in the cloud.
 
 >With Colaboratory you can write and execute code, save and share your analyses, and access powerful computing resources, all for free from your browser.
@@ -18,7 +18,7 @@ drive.mount('/content/gdrive')
 ```python
 #Generate root password
 import random, string
-password = ''.join(random.choice(string.ascii_letters + string.digits) for i in range(20))
+password = ''.join(random.choice(string.ascii_letters + string.digits) for i in range(19))
 
 #Download ngrok
 ! wget -q -c -nc https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
