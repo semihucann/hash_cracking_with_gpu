@@ -62,7 +62,7 @@ print("Root password: {}".format(password))
 ```bash
 ls /usr/bin/ | grep -i hash
 ```
-Commandi ile kontrol edip hashcate ait dosyalar kaldıysa silicez.
+Check hashcat files with the command and delete the files.
 
 ```bash
 wget https://hashcat.net/files/hashcat-5.1.0.7z
